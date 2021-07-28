@@ -5,6 +5,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Handlee';
+ 
 }
 
 .logo img{  
@@ -171,13 +172,14 @@ padding:20px;
    .contenedor-colecciones{
        padding-left: 50px;
    }
-   form{
-    width: 100%;
-}
+   
 }
 
 @media (max-width:480px){
     form{
+        width: 100%;
+    }
+    .formulario{
         width: 100%;
     }
 }
