@@ -33,7 +33,7 @@
     <div class="header-logo uk-flex uk-flex-center uk-flex-middle">
 
         <a href="" class="logo">
-            <img src="Logo.png" class="header-logo__image" alt="Logo">
+            <img src="Imagenes/Logo.png" class="header-logo__image" alt="Logo">
         </a>
     </div>
 
@@ -61,7 +61,7 @@
                         <a class="dropdown-item" href="lenceria.html">Lenceria</a>
                         <a class="dropdown-item" href="pijamas.html">Pijamas</a>
 
-                        <a class="dropdown-item" href="mallas.html">Mallas</a>
+                        <a class="dropdown-item" href="">Mallas</a>
                     </div>
                 </li>
             </ul>
@@ -73,19 +73,47 @@
 
 <body>
     <!-- form -->
-    <div class = "formulario">
 
-   <form action="enviar.php" method="post">
-        <h2>CONTACTO</h2>
-        <input type="text" name="Nombre" placeholder="Nombre" required>
-        <input type="text" name="Correo" placeholder="Correo" required>
-        <input type="text" name="Telefono" placeholder="Telefono" required>
-        <textarea name="mensaje"placeholder="Escriba aqui su mensaje" required></textarea>
-        <input type="submit" value="Enviar" id="boton">
-    </form>
+    <div class="container-form  pt-5">
+        <div class="row justify-content-center mt-auto pt-auto">
+            <div class="col-md-7">
+                <h2 class="display-3" >Contactanos</h2>
+                <form form name="contact" method="POST" data-netlify="true">
+                    <div class="row form-group">
+                        <label for="nombre" class="col-form-label col-md-4">Nombre:</label>
+                        <div class="col-md-8">
+                            <input type="text" name="nombre" id="nombre" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="email" class="col-form-label col-md-4">E-mail:</label>
+                        <div class="col-md-8">
+                            <input type="email" name="email" id="email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="mensaje" class="col-form-label col-md-4">Mensaje:</label>
+                        <div class="col-md-8">
+                            <textarea name="mensaje" class="form-control" id="mensaje"  rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div style="text-align: right;">
+                         <button  type="button"  id ="boton" class="btn btn-primary btn-lg" >Enviar</button>
+                    </div>
+                   
+                </form>
+
+            </div>
+
+        </div>
+
+
 
     </div>
- 
+
+
+
+
     <!-- footer -->
 
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
