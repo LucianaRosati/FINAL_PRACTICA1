@@ -4,7 +4,8 @@
     -webkit-box-align: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Handlee';
+    font-family: 'Handlee', cursive;
+    
  
 }
 
@@ -103,6 +104,7 @@
 .contenedor-imagenes img{
     width: 350px;
     height: 300px;
+    margin: auto;
 }
 .projects-section .project-text {
     padding: 3rem;
@@ -110,7 +112,7 @@
 }
 
 .container-form{
-    background:#ddccc4;
+    background:#c5a89c;
     padding: 80px;
 
 }
@@ -154,10 +156,18 @@ textarea{
 
 @media (max-width:599px){
    
-     .contenedor-colecciones .contenedor-imagenes {
+     .contenedor-imagenes {
        width: 100%;
 
    }
+
+   .contenedor-img-txt {
+        margin: 0px 0px 10px 10px;
+        text-align: center;
+        
+   }
+
+
    .contenedor-colecciones{
        padding-left: 60px;
        padding-right: 60px;
@@ -165,7 +175,8 @@ textarea{
    form{
        width:100%;
        margin-top:0;
-       padding: 10%;
+       
    }
+    
    
 }

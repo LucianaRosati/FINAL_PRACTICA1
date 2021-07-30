@@ -9,19 +9,20 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
     </style>
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
     <!-- Ionic icons-->
     <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images//favicon.png" />
 
 
 </head>
@@ -29,185 +30,190 @@
 
 <header>
 
-    <div>
-
+    <div class="header-logo uk-flex uk-flex-center uk-flex-middle"></div>
+         
         <a href="" class="logo">
-            <img src="Imagenes/Logo.png" class="header-logo__image" alt="Logo">
+            <img src="Logo.png" class="header-logo__image" alt="Logo" >
         </a>
+        </div>
+
+</header>
+
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="envios.html">ENVIOS</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    CATALOGO
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="ropaInterior.html">Ropa Interior</a>
+                    <a class="dropdown-item" href="pijamas.html">Pijamas</a>
+
+                    <a class="dropdown-item" href="mallas.html">Mallas</a>
+                </div>
+            </li>
+        </ul>
     </div>
 
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <ion-icon name="menu"></ion-icon>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">CONTACTO</a>
-              </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        CATALOGO
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="lenceria.html">Lenceria</a>
-                        <a class="dropdown-item" href="pijamas.html">Pijamas</a>
-                        <a class="dropdown-item" href="">Mallas</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
+</nav>
 
 
 <body>
   <!-- collections -->
   <section class="collection ">
       <div class="container py-5 " > 
-          <h1 class ="text-center">Catalogo lenceria</h1>
+          <h1 class ="text-center">CATALOGO ROPA INTERIOR</h1>
           <div class="row py-5">
-              <div class="col-lg-3 contenedor-img-txt" >
-                  <div class="card-collection mb-3 contenedor-imagenes">
+              <div class="col-lg-3 contenedor-colecciones" >
+                  <div class="card-collection mb-3">
                     <img src="Imagenes/interior1.jpeg" class="img-fluid mb-3" alt="">
-                    <h5>CONJUNTO SIN ARMAR DE ALGODON</h5>
-                    <p><small>TALLE: 95</small></p>
+                    <h5>CONJUNTO ARMADO CON TAZA Y ARCO</h5>
+                    <p><small>TALLE: 90</small></p>
                   </div>
               </div>
-              <div class="col-lg-3 contenedor-img-txt">
+              <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior2.jpeg" class="img-fluid mb-3" alt="">
-                  <h5>CONJUNTO DE ALGODON Y LYCRA CON TAZA DESMONTABLE</h5>
-                  <p><small>TALLE: 90 Y 95</small></p>
+                  <h5>CONJUNTO ARMADO CON TAZA DE ALGODON</h5>
+                  <p><small>TALLE: 95</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior3.jpg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO SIN ARMAR DE ENCAJE</h5>
                   <p><small>TALLE: 90</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior4.jpeg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO ARMADO CON TAZA Y ARCO</h5>
                   <p><small>TALLE: 95</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior5.jpeg" class="img-fluid mb-3" alt="">
-                  <h5>CONJUNTO DE PUNTILLA ESLASTIZADO</h5>
-                  <p><small>TALLE: 95</small></p>
+                  <h5>CONJUNTO SIN ARMAR DE ENCAJE</h5>
+                  <p><small>TALLE: 90</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior6.jpg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO ARMADO CON TAZA Y ARCO</h5>
                   <p><small>TALLE: 90</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior7.jpeg" class="img-fluid mb-3" alt="">
-                  <h5>CONJUNTO SIN ARMAR DE ALGODON</h5>
+                  <h5>CONJUNTO SIN ARMAR DE ENCAJE</h5>
                   <p><small>TALLE: 90</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior8.jpg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO SIN ARMAR DE ENCAJE</h5>
                   <p><small>TALLE: 90</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior9.jpg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO ARMADO CON ARCO</h5>
                   <p><small>TALLE: 95</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior10.jpg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO ARMADO SIN ARCO</h5>
                   <p><small>TALLE: 100</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior11.jpg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO ARMADO CON TAZA Y ARCO</h5>
                   <p><small>TALLE: 95</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior12.jpg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO SIN ARMAR DE ENCAJE</h5>
                   <p><small>TALLE: 90</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior13.jpeg" class="img-fluid mb-3" alt="">
-                  <h5>CONJUNTO PLUMETI CON TAZA DESMONTABLE</h5>
-                  <p><small>TALLE: 90</small></p>
+                  <h5>CONJUNTO SIN ARMAR CON TAZA DE ENCAJE</h5>
+                  <p><small>TALLE: 95</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior14.jpg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO SIN ARMAR DE ENCAJE</h5>
                   <p><small>TALLE: 90</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior15.jpeg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO SIN ARMAR DE ENCAJE</h5>
                   <p><small>TALLE: 95</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior16.jpeg" class="img-fluid mb-3" alt="">
-                  <h5>CONJUNTO DE PUNTILLA ESLATIZADO CON CIERRE DELANTERO</h5>
-                  <p><small>TALLE: 95</small></p>
+                  <h5>CONJUNTO SIN ARMAR DE ENCAJE</h5>
+                  <p><small>TALLE: 85</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior17.jpeg" class="img-fluid mb-3" alt="">
-                  <h5>TOP DE ALGODON Y ENCAJE</h5>
-                  <p><small>TALLE: 90</small></p>
+                  <h5>CONJUNTO ARMADO CON TAZA</h5>
+                  <p><small>TALLE: 100</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior18.jpeg" class="img-fluid mb-3" alt="">
-                  <h5>CONJUNTO SIN ARMAR DE ALGODON CON TAZA DESMONTABLE</h5>
+                  <h5>CONJUNTO SIN ARMAR DE ENCAJE</h5>
                   <p><small>TALLE: 90</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior19.jpg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO SIN ARMAR DE ENCAJE</h5>
                   <p><small>TALLE: 95</small></p>
                 </div>
             </div>
-            <div class="col-lg-3 contenedor-img-txt">
+            <div class="col-lg-3 ">
                 <div class="card-collection mb-3 contenedor-imagenes">
                   <img src="Imagenes/interior20.jpg" class="img-fluid mb-3" alt="">
                   <h5>CONJUNTO ARMADO CON TAZA SIN ARCO</h5>
@@ -223,16 +229,18 @@
     <!-- footer -->
 
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
+
         <div class="container pt-4">
+
             <section class="mb-4">
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1"
                     href="https://www.facebook.com/divina.insolencia.7" role="button" data-mdb-ripple-color="dark"><i
-                        class="fab fa-facebook-f fa-2x"></i></a>
+                        class="fab fa-facebook-f fa-3x"></i></a>
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1"
                     href="https://www.instagram.com/divinainsolencia/" role="button" data-mdb-ripple-color="dark"><i
-                        class="fab fa-instagram fa-2x"></i></a>
+                        class="fab fa-instagram fa-3x"></i></a>
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://wa.link/5ili9a" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    data-mdb-ripple-color="dark"><i class="fab fa-whatsapp fa-3x"></i></a>
             </section>
         </div>
 
@@ -245,13 +253,16 @@
 
     </footer>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
